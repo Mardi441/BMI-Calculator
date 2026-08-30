@@ -1,17 +1,14 @@
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
 html,
 body {
     width: 100%;
     min-height: 100%;
 }
-
 
 body {
     min-height: 100vh;
@@ -41,8 +38,6 @@ body {
     color: #202238;
 }
 
-
-
 .background-shape {
     position: fixed;
 
@@ -52,7 +47,6 @@ body {
 
     filter: blur(2px);
 }
-
 
 .shape-one {
     width: 360px;
@@ -65,7 +59,6 @@ body {
         rgba(133, 92, 255, 0.14);
 }
 
-
 .shape-two {
     width: 450px;
     height: 450px;
@@ -76,8 +69,6 @@ body {
     background:
         rgba(80, 200, 180, 0.08);
 }
-
-
 
 .app {
     width: 900px;
@@ -103,9 +94,6 @@ body {
         0 30px 80px rgba(0, 0, 0, 0.35);
 }
 
-
-
-
 .left-panel {
     padding: 42px;
 
@@ -125,15 +113,12 @@ body {
     justify-content: center;
 }
 
-
 #informationView,
 #resultView {
     width: 100%;
 
     max-width: 390px;
 }
-
-
 
 .brand {
     display: flex;
@@ -150,7 +135,6 @@ body {
 
     letter-spacing: 0.3px;
 }
-
 
 .brand-icon {
     width: 29px;
@@ -175,11 +159,8 @@ body {
         );
 }
 
-
-
-
 .left-panel h1 {
-    font-size: 39px;
+    font-size: 44px;
 
     line-height: 1.08;
 
@@ -188,27 +169,23 @@ body {
     margin-bottom: 17px;
 }
 
-
 .left-panel h1 span {
     display: block;
 
     color: #9b82ff;
 }
 
-
 .intro {
     max-width: 360px;
 
     color: #b9b8ce;
 
-    font-size: 13px;
+    font-size: 15px;
 
     line-height: 1.7;
 
     margin-bottom: 28px;
 }
-
-
 
 .range-list {
     display: flex;
@@ -217,7 +194,6 @@ body {
 
     gap: 9px;
 }
-
 
 .range-item {
     min-height: 51px;
@@ -235,12 +211,12 @@ body {
     background:
         rgba(255, 255, 255, 0.055);
 
-    border: 1px solid
+    border:
+        1px solid
         rgba(255, 255, 255, 0.045);
 
     transition: 0.2s;
 }
-
 
 .range-item:hover {
     background:
@@ -248,7 +224,6 @@ body {
 
     transform: translateX(3px);
 }
-
 
 .range-dot {
     width: 9px;
@@ -259,26 +234,21 @@ body {
     border-radius: 50%;
 }
 
-
 .range-item strong {
     display: block;
 
-    font-size: 12px;
+    font-size: 13px;
 
     margin-bottom: 3px;
 }
-
 
 .range-item small {
     display: block;
 
     color: #a8a7bc;
 
-    font-size: 10px;
+    font-size: 11px;
 }
-
-
-/* Range colors */
 
 .blue .range-dot {
     background: #55a9ff;
@@ -287,14 +257,12 @@ body {
         0 0 10px rgba(85, 169, 255, 0.5);
 }
 
-
 .green .range-dot {
     background: #49d890;
 
     box-shadow:
         0 0 10px rgba(73, 216, 144, 0.5);
 }
-
 
 .yellow .range-dot {
     background: #f7bd4d;
@@ -303,16 +271,12 @@ body {
         0 0 10px rgba(247, 189, 77, 0.5);
 }
 
-
 .red .range-dot {
     background: #ff6376;
 
     box-shadow:
         0 0 10px rgba(255, 99, 118, 0.5);
 }
-
-
-
 
 .right-panel {
     padding: 42px;
@@ -324,18 +288,16 @@ body {
     align-items: center;
 }
 
-
 .form-container {
     width: 100%;
 }
-
 
 .small-label {
     display: block;
 
     color: #8068d8;
 
-    font-size: 9px;
+    font-size: 10px;
 
     font-weight: 800;
 
@@ -344,33 +306,27 @@ body {
     margin-bottom: 8px;
 }
 
-
 .form-header h2 {
-    font-size: 23px;
+    font-size: 26px;
 
     color: #24243a;
 
-    margin-bottom: 8px;
+    margin-bottom: 9px;
 }
-
 
 .form-header p {
     color: #858394;
 
-    font-size: 11px;
+    font-size: 13px;
 
     line-height: 1.6;
 
     margin-bottom: 28px;
 }
 
-
-
-
 .input-group {
     margin-bottom: 18px;
 }
-
 
 .input-group label {
     display: flex;
@@ -379,13 +335,12 @@ body {
 
     color: #3b3b50;
 
-    font-size: 11px;
+    font-size: 14px;
 
     font-weight: 700;
 
-    margin-bottom: 7px;
+    margin-bottom: 8px;
 }
-
 
 .input-group label span {
     color: #aaa7b5;
@@ -393,11 +348,9 @@ body {
     font-weight: 500;
 }
 
-
 .input-wrapper {
     position: relative;
 }
-
 
 .input-wrapper input {
     width: 100%;
@@ -408,7 +361,9 @@ body {
         0 55px
         0 15px;
 
-    border: 1.5px solid #e4e0e8;
+    border:
+        1.5px solid
+        #e4e0e8;
 
     border-radius: 11px;
 
@@ -418,11 +373,10 @@ body {
 
     color: #29283b;
 
-    font-size: 13px;
+    font-size: 15px;
 
     transition: 0.2s;
 }
-
 
 .input-wrapper input:focus {
     border-color: #8068d8;
@@ -434,11 +388,9 @@ body {
         rgba(128, 104, 216, 0.09);
 }
 
-
 .input-wrapper input::placeholder {
     color: #b9b6c0;
 }
-
 
 .unit {
     position: absolute;
@@ -451,13 +403,10 @@ body {
 
     color: #9995a7;
 
-    font-size: 10px;
+    font-size: 11px;
 
     font-weight: 700;
 }
-
-
-
 
 button {
     width: 100%;
@@ -473,7 +422,6 @@ button {
         box-shadow 0.2s,
         background 0.2s;
 }
-
 
 .calculate-button {
     height: 49px;
@@ -492,7 +440,7 @@ button {
 
     color: white;
 
-    font-size: 12px;
+    font-size: 14px;
 
     font-weight: 700;
 
@@ -508,7 +456,6 @@ button {
         rgba(113, 88, 217, 0.22);
 }
 
-
 .calculate-button:hover {
     transform: translateY(-2px);
 
@@ -517,13 +464,11 @@ button {
         rgba(113, 88, 217, 0.3);
 }
 
-
 .arrow {
     font-size: 18px;
 
     opacity: 0.8;
 }
-
 
 .clear-button {
     height: 43px;
@@ -536,18 +481,14 @@ button {
 
     background: #eeeaf6;
 
-    font-size: 11px;
+    font-size: 13px;
 
     font-weight: 600;
 }
 
-
 .clear-button:hover {
     background: #e4dff0;
 }
-
-
-
 
 .form-footer {
     display: flex;
@@ -562,9 +503,8 @@ button {
 
     color: #aaa6b3;
 
-    font-size: 9px;
+    font-size: 10px;
 }
-
 
 .footer-line {
     width: 25px;
@@ -574,13 +514,9 @@ button {
     background: #ddd8e1;
 }
 
-
-
-
 .result-heading {
     margin-bottom: 25px;
 }
-
 
 .result-heading h1 {
     font-size: 34px;
@@ -588,13 +524,9 @@ button {
     margin-bottom: 0;
 }
 
-
 .result-heading .small-label {
     margin-bottom: 7px;
 }
-
-
-
 
 .bmi-circle {
     width: 155px;
@@ -625,7 +557,6 @@ button {
         0 12px 35px rgba(0, 0, 0, 0.18);
 }
 
-
 .bmi-circle::before {
     content: "";
 
@@ -639,7 +570,6 @@ button {
     background: #202044;
 }
 
-
 .circle-inner {
     position: relative;
 
@@ -648,37 +578,29 @@ button {
     text-align: center;
 }
 
-
 .bmi-number {
     display: block;
 
-    font-size: 35px;
+    font-size: 44px;
 
     font-weight: 800;
 
     letter-spacing: -1px;
 }
 
-
 .bmi-label {
     display: block;
 
     color: #a7a5bb;
 
-    font-size: 10px;
+    font-size: 13px;
 
-    margin-top: 2px;
+    margin-top: 3px;
 }
-
-
-/* ==========================================
-   BMI METER
-========================================== */
 
 .meter {
     margin-bottom: 23px;
 }
-
 
 .meter-track {
     height: 8px;
@@ -699,7 +621,6 @@ button {
         );
 }
 
-
 .meter-progress {
     height: 100%;
 
@@ -712,20 +633,19 @@ button {
     transition: width 0.5s ease;
 }
 
-
 .meter-labels {
     display: flex;
 
     justify-content: space-between;
 
-    margin-top: 7px;
+    margin-top: 8px;
 
     color: #9998ad;
 
-    font-size: 8px;
+    font-size: 11px;
+
+    font-weight: 600;
 }
-
-
 
 .result-card {
     padding: 16px;
@@ -742,9 +662,8 @@ button {
         rgba(255, 255, 255, 0.07);
 }
 
-
 .result-status {
-    font-size: 17px;
+    font-size: 21px;
 
     font-weight: 800;
 
@@ -755,30 +674,22 @@ button {
     transition: color 0.3s ease;
 }
 
-
 .result-card p {
     color: #aaa9bd;
 
-    font-size: 10px;
+    font-size: 13px;
 
     line-height: 1.6;
 }
-
-
-
 
 .hidden {
     display: none !important;
 }
 
-
-
-
 #resultView {
     animation:
         resultAppear 0.4s ease;
 }
-
 
 @keyframes resultAppear {
 
@@ -795,9 +706,6 @@ button {
     }
 }
 
-
-
-
 @media (max-width: 850px) {
 
     body {
@@ -805,7 +713,6 @@ button {
 
         overflow-y: auto;
     }
-
 
     .app {
         width: 100%;
@@ -815,18 +722,14 @@ button {
         grid-template-columns: 1fr;
     }
 
-
     .left-panel {
         padding: 35px;
     }
 
-
     .right-panel {
         padding: 35px;
     }
-
 }
-
 
 @media (max-width: 500px) {
 
@@ -834,25 +737,32 @@ button {
         padding: 10px;
     }
 
-
     .app {
         border-radius: 17px;
     }
-
 
     .left-panel,
     .right-panel {
         padding: 25px;
     }
 
-
     .left-panel h1 {
-        font-size: 30px;
+        font-size: 32px;
     }
-
 
     .form-header h2 {
-        font-size: 20px;
+        font-size: 22px;
     }
 
+    .bmi-number {
+        font-size: 40px;
+    }
+
+    .result-status {
+        font-size: 19px;
+    }
+
+    .result-card p {
+        font-size: 12px;
+    }
 }
