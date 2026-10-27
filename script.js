@@ -291,13 +291,11 @@ function clearCalculator() {
     weightInput.value = "";
 
 
-    // Reset BMI
 
     bmiValue.textContent =
         "--";
 
 
-    // Reset circle
 
     bmiCircle.style.background =
         `conic-gradient(
@@ -308,13 +306,12 @@ function clearCalculator() {
         )`;
 
 
-    // Reset meter
 
     meterProgress.style.width =
         "100%";
 
 
-    // Reset result
+
 
     resultCategory.textContent =
         "Healthy Weight";
