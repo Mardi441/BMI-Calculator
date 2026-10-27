@@ -51,7 +51,7 @@ function calculateBMI() {
         parseFloat(weightInput.value);
 
 
-    // Check if fields are empty
+
 
     if (
         isNaN(height) ||
@@ -66,7 +66,7 @@ function calculateBMI() {
     }
 
 
-    // Check positive numbers
+ 
 
     if (
         height <= 0 ||
@@ -81,27 +81,25 @@ function calculateBMI() {
     }
 
 
-    // Convert cm to meters
+  
 
     const heightMeters =
         height / 100;
 
 
-    // BMI formula
+ 
 
     const bmi =
         weight /
         (heightMeters * heightMeters);
 
 
-    // Display BMI
 
     bmiValue.textContent =
         bmi.toFixed(1);
 
 
-    // Determine category
-
+ 
     let category;
     let message;
     let color;
@@ -249,9 +247,7 @@ function updateMeter(bmi) {
     let percentage;
 
 
-    /*
-       The meter covers BMI 10 → 40.
-    */
+
 
     if (bmi <= 10) {
 
@@ -272,19 +268,13 @@ function updateMeter(bmi) {
     }
 
 
-    /*
-       The dark section covers the part
-       after the BMI position.
-    */
+ 
 
     meterProgress.style.width =
         (100 - percentage) + "%";
 }
 
 
-// ==========================================
-// CLEAR BUTTON
-// ==========================================
 
 clearButton.addEventListener(
     "click",
@@ -294,7 +284,7 @@ clearButton.addEventListener(
 
 function clearCalculator() {
 
-    // Clear inputs
+ 
 
     heightInput.value = "";
 
@@ -337,8 +327,7 @@ function clearCalculator() {
         "Your BMI result will appear here after calculation.";
 
 
-    // Return to information screen
-
+ 
     resultView.classList.add(
         "hidden"
     );
@@ -349,9 +338,6 @@ function clearCalculator() {
 }
 
 
-// ==========================================
-// ENTER KEY SUPPORT
-// ==========================================
 
 heightInput.addEventListener(
     "keydown",
